@@ -1,9 +1,16 @@
 /******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
+Autor:          Valeria Mosquera 
+Fecha:          06-06-2024
+DescripciC3n:    Toy Story
+     Los juguetes de Andy estC!n 
+     jugando a las escondidas. Pide al 
+     usuario las ubicaciones donde buscar 
+     y usa estructuras "si" para determinar 
+     si los juguetes estC!n en la ubicaciC3n 
+     correcta o no. Reportar la cantidad 
+     total de juguetes que fueron encontrados 
+     al finalizar 4 rondas.
 
 *******************************************************************************/
 using System;
