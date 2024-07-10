@@ -1,0 +1,22 @@
+/******************************************************************************
+.  un cliente solicito una mini app en consola que imprima frases de forma 
+aleatoria cada que es ejecutado
+
+*******************************************************************************/
+using System;
+class HelloWorld {
+  static void Main() {
+     string[] frases = {
+         "nunca digas nunca",
+         "se feliz",
+         "aprender de los errores es de sabios"
+     };
+     
+     //aleatorio
+     Random aleatorio = new Random();
+     int posicion = aleatorio.Next(0,2);
+     
+     // imprimir frase aleatoria
+     Console.WriteLine(frases[posicion]);
+  }
+}
